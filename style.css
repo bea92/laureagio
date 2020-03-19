@@ -1,0 +1,79 @@
+body {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1em;
+  background: #A110FF;}
+
+
+#header{
+  margin-top:6em;
+}
+
+video{
+  margin-top:1em;
+}
+
+p{
+  font-family: 'Arial', cursive;
+  font-size: 1.2em;
+  color:#ffd944;
+}
+
+h1{
+  font-size: 6em;
+  background: -webkit-linear-gradient(#560074,red, #ffd944);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      border:3px solid black;
+      padding:0.2em;
+}
+
+.text{
+    margin-top: 1em;
+}
+
+video{
+  border:3px solid red;
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+
+  h1{
+      font-size: 3.5em;
+  }
+}
+
+#overlay img {
+  display: block;
+  position: absolute;
+  width:20%;
+  opacity:1;
+  z-index:-9999;
+  /* filter: invert(12%) sepia(67%) saturate(6275%) hue-rotate(237deg) brightness(105%) contrast(98%); */
+}
+
+#overlay .float {
+  animation: float 5s infinite;
+  animation-direction: normal;
+  height: auto;
+}
+
+@keyframes float {
+  0% {
+    top: -20px;
+    left:20px;
+    -webkit-animation-timing-function: ease-out;
+  }
+
+  50% {
+    top: 10px;
+    left: 80px;
+    -webkit-animation-timing-function: ease-in;
+  }
+
+  100% {
+    top: -20px;
+    left: 20px;
+    animation-timing-function: ease-out;
+  }
+}
