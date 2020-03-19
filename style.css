@@ -14,17 +14,24 @@ video{
 
 p{
   font-family: 'Arial', cursive;
-  font-size: 1.2em;
+  font-size: 2em;
   color:#ffd944;
 }
+
+h4{
+  font-family: 'Arial', cursive;
+  font-size: 5em;
+  color:#ffd944;
+}
+
+
 
 h1{
   font-size: 6em;
   background: -webkit-linear-gradient(#560074,red, #ffd944);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-      border:3px solid black;
-      padding:0.2em;
+  padding:0.2em;
 }
 
 .text{
@@ -36,12 +43,6 @@ video{
   background-color: black;
 }
 
-@media only screen and (max-width: 600px) {
-
-  h1{
-      font-size: 3.5em;
-  }
-}
 
 #overlay img {
   display: block;
