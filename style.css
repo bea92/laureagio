@@ -56,6 +56,9 @@ img{
     border:3px solid red;
 }
 
+a{
+  color:red;
+}
 #overlay img {
   display: block;
   position: absolute;
@@ -72,6 +75,17 @@ img{
   height: auto;
 }
 
+#dona{
+  width: auto;
+  background: #ffd944;
+  padding:1em;
+  border:3px solid red;
+  margin-bottom:3em;
+}
+
+#dona p{
+    color:#A110FF;
+}
 @keyframes float {
   0% {
     top: -20px;
